@@ -7,16 +7,21 @@
 #
 # Insert your answers below each question:-
 # 1(a) What is the address location of the first element of the array, X.
-#
+# a.) locations address: 10010000
+
 # 1(b) What is the address location of the last element (element 7) of the array, X.
-#
+# b.)locations address: 10010008 ( 3 elements in the array)
+
+
 # 2.   What are the values at location 'SUM' as the program executes?
+#      Values: -2,-6,1
+        
 #
 # 3.   Traverse the program in single-step mode. Write down the intermediate 
 #      values stored in register $s1 as the program progresses.
-#
+#      Values: $s0 = 0, $s0 = -2, $s0 = -6, $s0 = 1.
 # 4.   What is the purpose of register $t0 in this program?
-#
+#        The purpose of the register is to hold the address of the array x and then as we increment through the loop we jump by 4 bytes to the next value of the array.
 #
 #
 .data                   	# Put Global Data here
